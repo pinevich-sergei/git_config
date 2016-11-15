@@ -1,0 +1,31 @@
+[user]
+	name = Pinevich Sergei
+	email = pinevich.sergey@yandex.ru
+[core]
+	editor = vim
+[alias]
+	loghs = log --pretty=format:\"%h %s\"
+	ci = commit
+	st = status -s
+	last = log -1 HEAD
+	cim = commit -m
+	br = branch
+	co = checkout
+	ciam = commit -a -m
+	loggrall = log --oneline --decorate --graph --all
+	logl = log --oneline
+	bc = checkout -b
+	cam = commit -a -m
+	bd = brach -d
+[color]
+	branch = true
+	log = true
+	ui = auto
+	decorate = no
+[log]
+	decorate = yes
+[color "decorate"]
+	head = black 
+    	branch = red
+	tag = black
+	remoteBranch = green
